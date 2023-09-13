@@ -28,13 +28,9 @@ export default props => {
       <>
         <Button
           onPress={() => props.navigation.navigate("UserForm", user)}
-          type="clear"
-          icon={<Icon name="edit" size={25} color="orange" />}
         />
         <Button
           onPress={() => confirmUserDeletion(user)}
-          type="clear"
-          icon={<Icon name="delete" size={25} color="red" />}
         />
       </>
     );
